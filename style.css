@@ -1,0 +1,67 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.body-container{
+  margin: 0 auto;
+  width: 70vw;
+}
+/* Cabezote estilos */
+.dot{
+  background-color: #a0a0a0;
+  color: white;
+  border-radius: 100%;
+  padding: 15px;
+}
+
+header{
+  align-items: center;
+  background: #ccc;
+  display: flex;
+  height: 3rem;
+  justify-content: space-between;
+  padding: 12px;
+}
+/* Barra de navegación */
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 4px;
+  padding: 0;
+}
+
+nav ul li {
+  color: #f0f0f0;
+  background-color: #040404;
+  height: 3rem;
+  width: 33%;
+}
+
+.content-boxes{
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.box{
+  background-color: #040404;
+  width: 33%;
+  height: 260px;
+}
+
+main{
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 450px;
+}
+
+aside{
+  background-color: #ccc;
+}
+
+article{
+  background-color: #373030;
+}
